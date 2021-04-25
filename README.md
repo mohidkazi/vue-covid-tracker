@@ -24,3 +24,7 @@ yarn build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Pending
+- Filter country based on country code and cases, deaths and recovered counts in ascending or descending order.
+- Implement graph using D3.js, by taking inspiration from [here](https://www.covid19india.org/).

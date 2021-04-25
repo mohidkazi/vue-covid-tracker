@@ -1,5 +1,5 @@
 <template>
-  <div class="shadow-md  p-10 text-center rounded" :class="bgColor">
+  <div class="shadow-md p-10 text-center rounded" :class="bgColor">
     <h3 class="text-3xl font-bold mb-4" :class="textColor">
       {{ title }}
     </h3>
@@ -24,8 +24,8 @@ export default {
   props: ['title', 'latest', 'total', 'bgColor', 'textColor'],
   methods: {
     numberWithCommas(integer) {
-      return integer.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')
+      return integer.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
     },
   },
-}
+};
 </script>

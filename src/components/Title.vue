@@ -19,6 +19,6 @@ export default {
     timestamp() {
       return DateTime.fromISO(this.date).toFormat('dd MMMM y, h:mm:ss');
     },
-  }
-}
+  },
+};
 </script>

@@ -15,5 +15,5 @@ export default {
     CardStats,
   },
   props: ['status', ]
-}
+};
 </script>

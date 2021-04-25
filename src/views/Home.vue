@@ -53,5 +53,5 @@ export default {
     this.summaryDate = summary.Date;
     this.isLoading = false;
   },
-}
+};
 </script>
