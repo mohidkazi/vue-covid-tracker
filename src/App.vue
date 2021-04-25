@@ -15,3 +15,11 @@ export default {
   }
 }
 </script>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&family=Roboto+Condensed&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+</style>
