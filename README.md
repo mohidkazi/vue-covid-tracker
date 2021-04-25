@@ -1,7 +1,8 @@
 # covid-tracker
 
 ## API
-This project uses the [covid19api.com](https://covid19api.com/) by [Kyle Redelinghuys](https://twitter.com/ksredelinghuys)
+- This project uses the [covid19api.com](https://covid19api.com/) by [Kyle Redelinghuys](https://twitter.com/ksredelinghuys)
+- [Postman collection](https://documenter.getpostman.com/view/10808728/SzS8rjbc)
 
 ## Inspiration
 This project is inspired by [Brad traversy's](https://twitter.com/traversymedia) youtube [tutorial](https://youtu.be/m-MAIpnH9ag).
