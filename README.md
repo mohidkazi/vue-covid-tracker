@@ -1,5 +1,7 @@
 # covid-tracker
 
+![landing page](./src/assets/landing.png)
+
 ## API
 - This project uses the [covid19api.com](https://covid19api.com/) by [Kyle Redelinghuys](https://twitter.com/ksredelinghuys)
 - [Postman collection](https://documenter.getpostman.com/view/10808728/SzS8rjbc)
