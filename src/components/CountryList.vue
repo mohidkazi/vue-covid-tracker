@@ -3,16 +3,16 @@
     <CountrySelect @get-country="getCountry" :countries="countries" />
     <div class="flex align-center justify-center text-center gap-4">
       <select @change="orderChange()" class="form-select mt-10 w-full p-3 border border-red-600 rounded bg-white shadow-lg">
-      <option value="asc" default="true">Ascending</option>
-      <option value="desc" >Descending</option>
-    </select>
+        <option value="asc" default="true">Ascending</option>
+        <option value="desc" >Descending</option>
+      </select>
 
-    <select class="form-select mt-10 w-full p-3 border border-red-600 rounded bg-white shadow-lg">
-      <option value="CountryCode" default="true">Name</option>
-      <option value="NewConfirmed" >Cases</option>
-      <option value="NewDeaths" >Deaths</option>
-      <option value="NewRecovered" >Recovered</option>
-    </select>
+      <select class="form-select mt-10 w-full p-3 border border-red-600 rounded bg-white shadow-lg">
+        <option value="CountryCode" default="true">Name</option>
+        <option value="NewConfirmed" >Cases</option>
+        <option value="NewDeaths" >Deaths</option>
+        <option value="NewRecovered" >Recovered</option>
+      </select>
     </div>
     <div v-if="isCountry" class="flex flex-col align-center justify-center text-center gap-4">
       <Country :country="newCountry" />
